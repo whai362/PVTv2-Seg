@@ -35,7 +35,7 @@ Then, download the weights pretrained on ImageNet at [here](https://drive.google
 |    Backbone     | Iters | mIoU | Config | Download  |
 | :-------------: | :-----: | :------: | :------------: | :----: |
 |    PVTv2-B0 + Semantic FPN    | 40K | 37.2 |  [config](https://github.com/whai362/PVTv2-Seg/blob/master/configs/sem_fpn/PVTv2/fpn_pvtv2_b0_ade20k_40k.py)  |  |
-|    PVTv2-B1 + Semantic FPN  | 40K |    |  [config](https://github.com/whai362/PVTv2-Seg/blob/master/configs/sem_fpn/PVTv2/fpn_pvtv2_b1_ade20k_40k.py)  |  |
+|    PVTv2-B1 + Semantic FPN  | 40K |  42.5  |  [config](https://github.com/whai362/PVTv2-Seg/blob/master/configs/sem_fpn/PVTv2/fpn_pvtv2_b1_ade20k_40k.py)  |  |
 |    PVTv2-B2 + Semantic FPN  | 40K | 45.2   |  [config](https://github.com/whai362/PVTv2-Seg/blob/master/configs/sem_fpn/PVTv2/fpn_pvtv2_b2_ade20k_40k.py)  |  |
 |    PVTv2-B3 + Semantic FPN   | 40K |    |  [config](https://github.com/whai362/PVTv2-Seg/blob/master/configs/sem_fpn/PVTv2/fpn_pvtv2_b3_ade20k_40k.py)  |  |
 |    PVTv2-B4 + Semantic FPN   | 40K |    |  [config](https://github.com/whai362/PVTv2-Seg/blob/master/configs/sem_fpn/PVTv2/fpn_pvtv2_b4_ade20k_40k.py)  |  |
