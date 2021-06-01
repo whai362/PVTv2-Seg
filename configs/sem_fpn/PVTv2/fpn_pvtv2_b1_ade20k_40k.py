@@ -1,4 +1,4 @@
-_base_ = './fpn_pvtv2_B2_ade20k_40k.py'
+_base_ = './fpn_pvtv2_b2_ade20k_40k.py'
 
 # model settings
 model = dict(
