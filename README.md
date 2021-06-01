@@ -34,12 +34,12 @@ Then, download the weights pretrained on ImageNet at [here](https://drive.google
 
 |    Backbone     | Iters | mIoU | Config | Download  |
 | :-------------: | :-----: | :------: | :------------: | :----: |
-|    PVTv2-B0 + SemFPN    | 40K |  |  [config](https://github.com/whai362/PVTv2-Seg/blob/master/configs/sem_fpn/PVTv2/fpn_pvtv2_b0_ade20k_40k.py)  |  |
-|    PVTv2-B1 + SemFPN  | 40K |    |  [config](https://github.com/whai362/PVTv2-Seg/blob/master/configs/sem_fpn/PVTv2/fpn_pvtv2_b1_ade20k_40k.py)  |  |
-|    PVTv2-B2 + SemFPN  | 40K |45.2    |  [config](https://github.com/whai362/PVTv2-Seg/blob/master/configs/sem_fpn/PVTv2/fpn_pvtv2_b2_ade20k_40k.py)  |  |
-|    PVTv2-B3 + SemFPN   | 40K |    |  [config](https://github.com/whai362/PVTv2-Seg/blob/master/configs/sem_fpn/PVTv2/fpn_pvtv2_b3_ade20k_40k.py)  |  |
-|    PVTv2-B4 + SemFPN   | 40K |    |  [config](https://github.com/whai362/PVTv2-Seg/blob/master/configs/sem_fpn/PVTv2/fpn_pvtv2_b4_ade20k_40k.py)  |  |
-|    PVTv2-B5 + SemFPN   | 40K |    |  [config](https://github.com/whai362/PVTv2-Seg/blob/master/configs/sem_fpn/PVTv2/fpn_pvtv2_b5_ade20k_40k.py)  |  |
+|    PVTv2-B0 + Semantic FPN    | 40K |  |  [config](https://github.com/whai362/PVTv2-Seg/blob/master/configs/sem_fpn/PVTv2/fpn_pvtv2_b0_ade20k_40k.py)  |  |
+|    PVTv2-B1 + Semantic FPN  | 40K |    |  [config](https://github.com/whai362/PVTv2-Seg/blob/master/configs/sem_fpn/PVTv2/fpn_pvtv2_b1_ade20k_40k.py)  |  |
+|    PVTv2-B2 + Semantic FPN  | 40K |    |  [config](https://github.com/whai362/PVTv2-Seg/blob/master/configs/sem_fpn/PVTv2/fpn_pvtv2_b2_ade20k_40k.py)  |  |
+|    PVTv2-B3 + Semantic FPN   | 40K |    |  [config](https://github.com/whai362/PVTv2-Seg/blob/master/configs/sem_fpn/PVTv2/fpn_pvtv2_b3_ade20k_40k.py)  |  |
+|    PVTv2-B4 + Semantic FPN   | 40K |    |  [config](https://github.com/whai362/PVTv2-Seg/blob/master/configs/sem_fpn/PVTv2/fpn_pvtv2_b4_ade20k_40k.py)  |  |
+|    PVTv2-B5 + Semantic FPN   | 40K |    |  [config](https://github.com/whai362/PVTv2-Seg/blob/master/configs/sem_fpn/PVTv2/fpn_pvtv2_b5_ade20k_40k.py)  |  |
 
 ## Evaluation
 To evaluate PVT-Small + SemFPN on a single node with 8 gpus run:
